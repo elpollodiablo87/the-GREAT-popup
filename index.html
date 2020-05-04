@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Discount</title>
+    <script src="https://kit.fontawesome.com/84f969a0e4.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+      body {
+        background-color: #F8DA5C;
+      }
+      .wrapper {
+        text-align: center;
+        margin: auto;
+        width: 50em;
+        height: 28em;
+        display: flex;
+        background-color: white;
+        border-radius: 5%;
+      }
+      #image {
+        width: 50%;
+        height: 28em;
+        overflow: hidden;
+        text-align: left;
+      }
+      #form {
+        width: 50%;
+
+      }
+      #form form {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 2em;
+        width: 80%;
+      }
+      h1 {
+        font-size: 1.5em;
+        font-family: arial;
+        text-transform: capitalize;
+      }
+      input {
+        padding: .7em;
+        border: 2px solid #F8CF2C;
+        color: grey;
+        margin: .6em;
+        width: 80%;
+        margin-left: 0;
+      }
+      #name {
+        margin-top: 2em;
+      }
+      /* Buttons */
+      button {
+        cursor: pointer;
+      }
+      #sign-up {
+        padding: 1em;
+        background-color: #F8CF2C;
+        border: none;
+        font-size: .8em;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 40%;
+        font-family: arial;
+        margin-bottom: 1.8em;
+        margin-top: 1em;
+      }
+      #close {
+        border: none;
+        color: #22262c;
+        background-color: white;
+        width: 35px;
+        height: 35px;
+        position: relative;
+        left: 13em;
+        top: 1em;
+
+      }
+      p {
+        text-transform: capitalize;
+        font-family: arial;
+        font-size: .8em;
+        margin: .2em;
+      }
+      a {
+        color: #F8CF2C;
+        text-decoration: none;
+      }
+      span {
+        color: #F8CF2C;
+      }
+      img {
+        max-width: 90%;
+        max-height: 100%;
+        border-radius: 5% 0% 0% 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="image">
+        <img src="laura-chouette-2S4Ob6H_1Sw-unsplash.jpg" alt="Woman wearing a sunglases">
+      </div>
+      <div id="form">
+        <button type="button" name="close" id="close" class="fas fa-times"></button>
+        <form class="" action="index.html" method="post">
+          <h1>join the <span>#urbanoutfitgang</span></h1>
+          <p>we look good togeather</p>
+          <p>enjoy 10% off your first order!</p>
+          <input type="text" name="name" value="Name" id="name">
+          <input type="email" name="email" value="Email" id="email">
+          <button type="button" name="button" id="sign-up">sign me up</button>
+          <p>sign up for latest updates, exclusive sales and special promotions. view our <a href="#">privacy policy</a>.</p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
